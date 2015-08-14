@@ -1,4 +1,5 @@
-(ns app-du-jour.core)
+(ns app-du-jour.scrape
+  (:require [net.cgrand.enlive-html :as html]))
 
 (def base-url "http://www.amazon.com")
 
